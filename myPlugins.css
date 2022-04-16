@@ -2,6 +2,7 @@ h1 {
     text-align: center;
     color: blueviolet;
     background: linear-gradient(120deg, rgb(5, 5, 5), rgb(9, 9, 9) , rgb(33, 17, 93), rgb(33, 17, 93));
+    margin-top: 0;
 }
 .bg {
     content: ' ';
