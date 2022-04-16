@@ -21,7 +21,7 @@ nav {
 }
 .nav {
     display: inline-flex;
-    margin-left: 65%;
+    margin-left: 800px;
 }
 a {
     text-decoration: none;
