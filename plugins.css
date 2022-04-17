@@ -2,7 +2,7 @@ body {
     font-family: monospace;
     margin: 0;
     text-align: center;
-    background: url(Plugins.png);
+    background: url(plugins.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
