@@ -1,0 +1,99 @@
+body {
+    background-image: url(images/background.jpg);
+    min-height: 100%;
+    min-width: 100%;
+    background-size: cover;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+p {
+    color: white;
+    font-family: monospace;
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+header nav {
+    margin-right: 10px;
+    font-family: monospace;
+    display: flex;
+}
+
+header nav a {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+header nav a:hover {
+    color: rgb(43, 56, 197);
+}
+
+
+#about {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+
+    align-items: center;
+    flex-direction: column;
+
+}
+
+main h1 {
+    color: rgb(11, 11, 30);
+    font-size: 50px;
+    font-family: monospace;
+    text-shadow: 0px 20px 15px rgba(12, 12, 12, 0.9);
+}
+.blackbox {
+    background-color: black;
+    display: flex;
+    height: 40%;
+    width: 55%;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    /* border-color: rgb(44, 9, 78);
+    border-style: solid;
+    border-width: 10px; */
+    box-shadow: -3px 30px 35px 10px rgba(10, 10, 10, 0.8);
+    opacity: 0.94;
+}
+@media only screen and (max-width: 384px) {
+    header nav a {
+        font-size: 20px;
+    }
+    main h1 {
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    header nav a {
+        font-size: 15px;
+    }
+    p {
+        font-size: small;
+    }
+    main h1 {
+        font-size: 40px;
+    }
+    body {
+        aspect-ratio: 9/16;
+    }
+}
